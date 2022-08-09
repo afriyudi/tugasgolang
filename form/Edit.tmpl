@@ -1,0 +1,14 @@
+{{ define "Edit" }}
+  {{ template "Header" }}
+    {{ template "Menu" }} 
+   <h2>Edit Task</h2>  
+    <form method="POST" action="update">
+      <input type="hidden" name="uid" value="{{ .Id }}" />
+      <label> Task </label><input type="text" name="task" value="{{ .Task }}"  /><br />
+      <label> Assignee </label><input type="text" name="assignee" value="{{ .Assignee }}"  /><br />
+       <label for="dateline">Dateline:</label><input type="date" id="dateline" name="dateline" value="{{ .Dateline }}" >
+
+      <input type="submit" value="Save Data" />
+    </form><br />    
+  {{ template "Footer" }}
+{{ end }}
