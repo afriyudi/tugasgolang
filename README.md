@@ -46,3 +46,5 @@ go run main.go
 test alamat http://localhost:8080/ di browser
 
 ```
+
+![alt text](https://github.com/afriyudi/tugasgolang/blob/main/tugas.png "jalanya program di browser")
