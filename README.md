@@ -27,3 +27,22 @@ ALTER TABLE `employee1`
   MODIFY `id` int(6) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 ```
+
+```
+Cara buat project golang :
+mkdir tugasgolang
+cd tugasgolang
+go mod init tugasgolang
+
+
+copy isi file dari repository di github copykan di folder tugasgolang
+
+download library mysql di folder tugasgolang :
+go get -u github.com/go-sql-driver/mysql
+
+testing program(pastikan mysql server jalan):
+go run main.go
+
+test alamat http://localhost:8080/ di browser
+
+```
