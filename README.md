@@ -1,5 +1,6 @@
 # tugasgolang
 
+```
 buat table :
 CREATE TABLE `employee1` (
   `id` int(6) UNSIGNED NOT NULL,
@@ -8,3 +9,4 @@ CREATE TABLE `employee1` (
   `dateline` date NOT NULL,
   `mark` varchar(1) DEFAULT 'N'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+```
