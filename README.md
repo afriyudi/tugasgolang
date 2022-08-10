@@ -15,9 +15,9 @@ ALTER TABLE `employee1`
 
 2. insert data
 INSERT INTO `employee1` (`id`, `task`, `assignee`, `dateline`, `mark`) VALUES
-(1, 'edit Program', 'jack', '0000-00-00', 'Y'),
-(2, 'edit Program', 'jack', '0000-00-00', 'N'),
-(4, 'buat kopi', 'pok inem', '0000-00-00', 'Y'),
+(1, 'edit Program', 'jack', '2022-08-07', 'Y'),
+(2, 'edit data', 'jack sparow', '2022-07-09', 'N'),
+(4, 'buat kopi', 'pok inem', '2022-08-08', 'Y'),
 (5, 'bikin pempek', 'om barong', '2022-08-09', 'Y'),
 (6, 'Membuat Pindang', 'Bos Besak', '2022-08-10', 'N'),
 (7, 'bikin pempek lenggang', 'babeyudi', '2022-08-10', 'Y'),
